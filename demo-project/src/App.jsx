@@ -1,6 +1,6 @@
-import Cards from "./Component/Cards1"
-import Cards2 from "./Component/Cards2"
-import Cards3 from "./Component/Cards3"
+import Cards from "./Component/product-cards/Cards1"
+import Cards2 from "./Component/product-cards/Cards2"
+import Cards3 from "./Component/product-cards/Cards3"
 function App() {
 
   return (
@@ -9,6 +9,8 @@ function App() {
   <Cards />
   <Cards2 />
   <Cards3 />
+    <p> Enter the seller details : </p>
+  
     </>
   )
 }
